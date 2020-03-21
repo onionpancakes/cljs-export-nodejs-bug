@@ -13,4 +13,10 @@
   :build
   {:main-opts ["-m" "cljs.main"
                "-co" "cljsc_opts.edn"
+               "-c"]}
+
+  :build-browser
+  {:main-opts ["-m" "cljs.main"
+               "-co" "cljsc_opts.edn"
+               "--target" "browser"
                "-c"]}}}
