@@ -1,0 +1,11 @@
+{:deps  {org.clojure/clojurescript {:mvn/version "1.10.597"}}
+ :paths ["src"]
+
+ :aliases
+ {:works
+  {:override-deps {org.clojure/clojurescript {:git/url "https://github.com/clojure/clojurescript"
+                                              :sha     "3a0c07477ae781bf521bdc2b074ed7b783bb93f3"}}}
+
+  :broke
+  {:override-deps {org.clojure/clojurescript {:git/url "https://github.com/clojure/clojurescript"
+                                              :sha     "e25ced97af3c15a87afcb15165508aa23e54a3fa"}}}}}
