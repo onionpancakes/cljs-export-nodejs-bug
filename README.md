@@ -1,6 +1,6 @@
 # ClojureScript Nodejs export bug
 
-The latest version of ClojureScript does not export correctly for NodeJS target.
+The latest version of ClojureScript does not `^:export` for NodeJS target.
 
 Bug manifest after commit:
 
